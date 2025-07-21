@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/SRUJAN-BANDARU/Namaste-REACT.git"
   },
-  "keywords": [],
+  "keywords": ["react", "parcel"],
   "author": "Srujan",
   "license": "ISC",
   "bugs": {
