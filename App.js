@@ -5,9 +5,12 @@
     </div>
 </div> */}
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div",{}, 
     React.createElement("div",{id:"child"}, 
-        [React.createElement("h1",null , "This is the first heading"), React.createElement("h2", null, "This is the second heading")]
+        [React.createElement("h1",null , "This is the rea heading")]
     )
 )
 
