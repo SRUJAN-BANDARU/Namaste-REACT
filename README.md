@@ -24,3 +24,24 @@ Why we use parcel??
  While we are writing the code in React js (like React.createElement) it creates an object and then when it got renders it becomes the html element
 
  When we write the code in jsx it can be transpiled into react code using Babel and then into html
+
+
+ Namaste food
+ Component overview
+
+    Header
+     - Logo
+     - Nav Items
+    
+    Body
+     - Search
+     - Restaurant container
+        - Restaurant card
+            - Img
+            - Name of Res, Star Rating, Cuisine, delivery time
+    
+    Footer
+     - Copyright
+     - Links
+     - Address
+     - Contact
