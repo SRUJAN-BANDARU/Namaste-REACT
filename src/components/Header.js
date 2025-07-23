@@ -1,9 +1,9 @@
-
+import { LOGO_URL } from "../utils/constants";
 const Header = () => {
     return (
         <div className="header">
             <div className="logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51uyzBl1_6QnPPORZTKqlKU5yGN7-3cS0Og&s" />
+                <img src={LOGO_URL} />
             </div>
             <div className="nav-items">
                 <ul>

@@ -45,3 +45,26 @@ Why we use parcel??
      - Links
      - Address
      - Contact
+
+
+Don't keep hard coded data in components files
+Use one separate folder
+
+
+Types of exports:
+• Default Exports :- We can write only one default export in a file
+    Ex: export default Component;
+    import Component from "path";
+
+• Named Exports : When we need to export multiple things in a file(use export before function or const)
+    Ex: export const Component;
+    import {Component} from "path";
+
+
+# React Hooks
+
+ (Normal JS utility function)
+
+- useState()
+    when we change the state variable react can re-render the data
+- useEffect()

@@ -1,3 +1,5 @@
+import { CDN_URL } from "../utils/constants";
+
 const RestaurantCard = (props) =>{
     const resObj = props;
     console.log(resObj);
@@ -5,7 +7,8 @@ const RestaurantCard = (props) =>{
         <div className="res-card">
             <img 
             className="res-logo"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcQFjEMeWI2rkKKYTCyy_l6rQd7J0w13fe6g&s" alt="res-logo"/>
+            src={CDN_URL}
+            alt="res-logo"/>
             <h3>{resObj.resData.resName}</h3>
             <h4>{resObj.resData.item}, {resObj.resData.cuisine}, {resObj.resData.region}</h4>
             <h4>{resObj.resData.rating}</h4>
