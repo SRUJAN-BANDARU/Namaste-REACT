@@ -7,10 +7,20 @@ const Body = () =>{
     // state variable
     //The second parameter is used to change the value of the list
     const[listOfRestaurants, setListOfRestaurants] = useState(resList);
+    const [photo, setPhoto] = useState()
+    // useEffect( ()=>{
+    //     console.log("UseEffect called");
+    //     fetchPhoto();
+        
+    //     // console.log(json);
+    // },[]);
 
-    useEffect(()=>{
-        console.log("UseEffect called");
-    },[]);
+    // const fetchPhoto = async()=>{
+    //     const data = await fetch("https://foodish-api.com/api/");
+    //     const jsonData = await data.json();
+    //     setPhoto(jsonData.image);
+    //     console.log(jsonData.image);
+    // }
 
     // Normal variable
     // let listOfRestaurants = []

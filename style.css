@@ -58,3 +58,9 @@
     color: rgb(20, 57, 6);
     cursor: pointer;
 }
+
+.login-btn{
+    padding: 2px 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
