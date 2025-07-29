@@ -49,6 +49,10 @@
     width: 90%;
     
 }
+.filter{
+    display: flex;
+    padding: 10px;
+}
 
 .filter-btn{
     padding: 5px;
@@ -56,6 +60,21 @@
     background-color: rgb(235, 90, 194);
     font-size: large;
     color: rgb(20, 57, 6);
+    cursor: pointer;
+}
+
+.search-filter input{
+    padding: 5px;
+    margin: 10px;
+    /* cursor: pointer; */
+}
+
+.search-btn{
+    padding: 5px;
+    margin: 10px;
+    background-color: #9fd3c7;
+    border-radius: 5px;
+    color:#142d4c;
     cursor: pointer;
 }
 

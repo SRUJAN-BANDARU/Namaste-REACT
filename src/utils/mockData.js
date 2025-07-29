@@ -31,7 +31,7 @@ const resList =[ {
         time : 38
     },
     {
-        resName : "Meghana Foods",
+        resName : "Meghana Food cafe",
         item : "Biriyani",
         cuisine : "South Indian",
         region : "Asian",
